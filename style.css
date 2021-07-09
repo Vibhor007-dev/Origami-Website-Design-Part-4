@@ -1,0 +1,78 @@
+.header{
+    background-image: url("simple-pattern-with-css3.png");
+    display: flex;
+   flex-flow:column wrap;
+   padding-bottom:50px;
+}
+
+
+.Menu{
+    display:flex;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right:50px;
+
+}
+
+
+
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top:50px;
+    padding-bottom: 50px;
+
+}
+
+
+    .item{
+        border-radius: 20px;
+        background-color: white;
+        width:310px;
+       font-family: fantasy;
+        
+    
+    }
+    .item img{
+       
+        border: 2px solid black;
+        border-radius:50px;
+        position:relative;
+    }
+    .item p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity: 0;
+        
+    }
+
+    .header1{
+        font-family:Arial;
+    }
+
+    .text{
+        flex-direction: row;
+        font-size:30px;
+        font-family: 'Franklin Gothic Medium';
+    }
+   
+    .logo{
+        flex-direction: row;
+        
+    }
+    
+    .item:hover{
+        transform:scale(1.2);
+    }
+
+    a:link{
+        color:red
+    }
+    a:visited{
+        color:blue
+    }
+
+
